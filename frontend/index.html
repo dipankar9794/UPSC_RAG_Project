@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="UPSC AI - Retrieval-Augmented Knowledge Assistant">
+
+    <title>UPSC AI — Knowledge Assistant</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================================
+         NAVIGATION
+    ========================================== -->
+
+    <header class="navbar">
+
+        <div class="logo">
+
+            <div class="logo-icon">
+                📚
+            </div>
+
+            <div>
+                <strong>UPSC AI</strong>
+                <span>Knowledge Assistant</span>
+            </div>
+
+        </div>
+
+        <div class="nav-status">
+            <span class="status-dot"></span>
+            RAG SYSTEM ONLINE
+        </div>
+
+    </header>
+
+
+    <!-- =========================================
+         HERO
+    ========================================== -->
+
+    <main>
+
+        <section class="hero">
+
+            <div class="hero-content">
+
+                <div class="badge">
+                    ✦ AI-POWERED UPSC KNOWLEDGE
+                </div>
+
+                <h1>
+                    Prepare smarter.
+                    <span>Ask your knowledge base.</span>
+                </h1>
+
+                <p>
+                    Explore UPSC information through semantic
+                    retrieval and AI-generated answers grounded
+                    in your knowledge base.
+                </p>
+
+                <div class="hero-actions">
+
+                    <a href="#assistant"
+                       class="primary-button">
+                        Try UPSC AI
+                        <span>→</span>
+                    </a>
+
+                    <a href="#pipeline"
+                       class="secondary-button">
+                        Explore how it works
+                    </a>
+
+                </div>
+
+                <div class="hero-tags">
+
+                    <span>🧠 Semantic Search</span>
+                    <span>🔎 Top-K Retrieval</span>
+                    <span>🤖 Ollama LLM</span>
+                    <span>📚 Grounded Answers</span>
+
+                </div>
+
+            </div>
+
+
+            <!-- PRODUCT PREVIEW -->
+
+            <div class="hero-preview">
+
+                <div class="browser-window">
+
+                    <div class="browser-header">
+
+                        <div class="browser-dots">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+
+                        <div class="browser-title">
+                            UPSC AI Assistant
+                        </div>
+
+                    </div>
+
+
+                    <div class="preview-body">
+
+                        <div class="preview-label">
+                            AI ASSISTANT
+                        </div>
+
+                        <div class="question">
+                            What is the UPSC Civil Services
+                            Examination?
+                        </div>
+
+                        <div class="answer">
+
+                            <div class="answer-heading">
+                                🤖 AI Answer
+                            </div>
+
+                            <p>
+                                The system retrieves relevant
+                                information from the UPSC knowledge
+                                base before generating a grounded
+                                response.
+                            </p>
+
+                        </div>
+
+
+                        <div class="preview-meta">
+
+                            <span>
+                                <span class="status-dot"></span>
+                                Retrieval ready
+                            </span>
+
+                            <span>
+                                Top-K: 3
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================================
+             PIPELINE
+        ========================================== -->
+
+        <section class="section"
+                 id="pipeline">
+
+            <div class="section-heading">
+
+                <div class="eyebrow">
+                    SYSTEM PIPELINE
+                </div>
+
+                <h2>
+                    From question to grounded answer.
+                </h2>
+
+                <p>
+                    Every question moves through the retrieval
+                    pipeline before the language model generates
+                    its response.
+                </p>
+
+            </div>
+
+
+            <div class="pipeline">
+
+                <div class="pipeline-card reveal">
+
+                    <div class="pipeline-number">
+                        01
+                    </div>
+
+                    <div class="pipeline-icon">
+                        💬
+                    </div>
+
+                    <h3>
+                        Question
+                    </h3>
+
+                    <p>
+                        User enters a question.
+                    </p>
+
+                </div>
+
+
+                <div class="pipeline-arrow">
+                    →
+                </div>
+
+
+                <div class="pipeline-card reveal">
+
+                    <div class="pipeline-number">
+                        02
+                    </div>
+
+                    <div class="pipeline-icon">
+                        🧠
+                    </div>
+
+                    <h3>
+                        Embedding
+                    </h3>
+
+                    <p>
+                        Question becomes an embedding.
+                    </p>
+
+                </div>
+
+
+                <div class="pipeline-arrow">
+                    →
+                </div>
+
+
+                <div class="pipeline-card reveal">
+
+                    <div class="pipeline-number">
+                        03
+                    </div>
+
+                    <div class="pipeline-icon">
+                        🔎
+                    </div>
+
+                    <h3>
+                        Similarity
+                    </h3>
+
+                    <p>
+                        Relevant knowledge is identified.
+                    </p>
+
+                </div>
+
+
+                <div class="pipeline-arrow">
+                    →
+                </div>
+
+
+                <div class="pipeline-card reveal">
+
+                    <div class="pipeline-number">
+                        04
+                    </div>
+
+                    <div class="pipeline-icon">
+                        📚
+                    </div>
+
+                    <h3>
+                        Context
+                    </h3>
+
+                    <p>
+                        Relevant context is retrieved.
+                    </p>
+
+                </div>
+
+
+                <div class="pipeline-arrow">
+                    →
+                </div>
+
+
+                <div class="pipeline-card reveal">
+
+                    <div class="pipeline-number">
+                        05
+                    </div>
+
+                    <div class="pipeline-icon">
+                        🤖
+                    </div>
+
+                    <h3>
+                        LLM
+                    </h3>
+
+                    <p>
+                        Llama 3 processes the context.
+                    </p>
+
+                </div>
+
+
+                <div class="pipeline-arrow">
+                    →
+                </div>
+
+
+                <div class="pipeline-card reveal">
+
+                    <div class="pipeline-number">
+                        06
+                    </div>
+
+                    <div class="pipeline-icon">
+                        ✨
+                    </div>
+
+                    <h3>
+                        Answer
+                    </h3>
+
+                    <p>
+                        A grounded answer is generated.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================================
+             HOW IT WORKS
+        ========================================== -->
+
+        <section class="section">
+
+            <div class="section-heading">
+
+                <div class="eyebrow">
+                    HOW IT WORKS
+                </div>
+
+                <h2>
+                    Built around retrieval.
+                </h2>
+
+                <p>
+                    The application retrieves relevant information
+                    before generating the answer.
+                </p>
+
+            </div>
+
+
+            <div class="feature-grid">
+
+                <article class="feature-card reveal">
+
+                    <div class="feature-number">
+                        01
+                    </div>
+
+                    <div class="feature-icon">
+                        💬
+                    </div>
+
+                    <h3>
+                        Ask a question
+                    </h3>
+
+                    <p>
+                        Enter a question about UPSC information
+                        available in the knowledge base.
+                    </p>
+
+                </article>
+
+
+                <article class="feature-card reveal">
+
+                    <div class="feature-number">
+                        02
+                    </div>
+
+                    <div class="feature-icon">
+                        🔎
+                    </div>
+
+                    <h3>
+                        Retrieve context
+                    </h3>
+
+                    <p>
+                        The question is embedded and compared
+                        against stored knowledge using cosine
+                        similarity.
+                    </p>
+
+                </article>
+
+
+                <article class="feature-card reveal">
+
+                    <div class="feature-number">
+                        03
+                    </div>
+
+                    <div class="feature-icon">
+                        🤖
+                    </div>
+
+                    <h3>
+                        Generate an answer
+                    </h3>
+
+                    <p>
+                        Retrieved context is provided to Llama 3
+                        through Ollama for a grounded response.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================================
+             ASSISTANT
+        ========================================== -->
+
+        <section class="assistant-section"
+                 id="assistant">
+
+            <div class="assistant-card">
+
+                <div class="assistant-content">
+
+                    <div class="eyebrow">
+                        AI ASSISTANT
+                    </div>
+
+                    <h2>
+                        Ask the UPSC knowledge base.
+                    </h2>
+
+                    <p>
+                        Ready to explore the actual retrieval-
+                        augmented application?
+                    </p>
+
+                    <a href="#"
+                       id="launchButton"
+                       class="primary-button">
+                        Launch UPSC AI
+                        <span>→</span>
+                    </a>
+
+                </div>
+
+
+                <div class="assistant-visual">
+
+                    <div class="terminal">
+
+                        <div class="terminal-header">
+
+                            <span></span>
+                            <span></span>
+                            <span></span>
+
+                        </div>
+
+                        <div class="terminal-line">
+                            <span class="green">✓</span>
+                            Knowledge base loaded
+                        </div>
+
+                        <div class="terminal-line">
+                            <span class="green">✓</span>
+                            Embedding model ready
+                        </div>
+
+                        <div class="terminal-line">
+                            <span class="green">✓</span>
+                            Retrieval system ready
+                        </div>
+
+                        <div class="terminal-line">
+                            <span class="green">✓</span>
+                            Llama 3 ready
+                        </div>
+
+                        <div class="terminal-cursor">
+                            _
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================================
+             CAPABILITIES
+        ========================================== -->
+
+        <section class="section">
+
+            <div class="section-heading">
+
+                <div class="eyebrow">
+                    SYSTEM CAPABILITIES
+                </div>
+
+                <h2>
+                    Designed around transparent retrieval.
+                </h2>
+
+            </div>
+
+
+            <div class="capability-grid">
+
+                <div class="capability-card reveal">
+
+                    <span>🧠</span>
+
+                    <h3>
+                        Semantic Retrieval
+                    </h3>
+
+                    <p>
+                        Questions and knowledge chunks are
+                        represented as embeddings and compared
+                        using cosine similarity.
+                    </p>
+
+                </div>
+
+
+                <div class="capability-card reveal">
+
+                    <span>🔒</span>
+
+                    <h3>
+                        Local AI
+                    </h3>
+
+                    <p>
+                        The application uses Ollama locally
+                        with Llama 3 and nomic-embed-text.
+                    </p>
+
+                </div>
+
+
+                <div class="capability-card reveal">
+
+                    <span>🔍</span>
+
+                    <h3>
+                        Retrieval Visibility
+                    </h3>
+
+                    <p>
+                        Retrieved context and similarity scores
+                        make the RAG process easier to understand.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================================
+             FINAL CTA
+        ========================================== -->
+
+        <section class="final-section">
+
+            <div class="final-content">
+
+                <div class="eyebrow">
+                    READY TO EXPLORE
+                </div>
+
+                <h2>
+                    Ask your next UPSC question.
+                </h2>
+
+                <p>
+                    Explore the knowledge base through semantic
+                    retrieval and a locally powered AI assistant.
+                </p>
+
+                <a href="#assistant"
+                   class="primary-button">
+                    Explore UPSC AI
+                    <span>→</span>
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================================
+         FOOTER
+    ========================================== -->
+
+    <footer>
+
+        <div>
+            📚 <strong>UPSC AI</strong>
+        </div>
+
+        <p>
+            Retrieval-Augmented Knowledge Assistant
+        </p>
+
+        <small>
+            Python · Streamlit · Ollama · RAG
+        </small>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
