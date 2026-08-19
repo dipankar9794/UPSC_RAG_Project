@@ -4,7 +4,7 @@ An AI-powered UPSC information assistant built using
 Retrieval-Augmented Generation (RAG).
 
 The application retrieves relevant information from a focused
-UPSC knowledge base and uses Ollama to generate a response based
+UPSC knowledge base and uses Ollama to generate responses based
 on the retrieved context.
 
 ## Features
@@ -15,7 +15,7 @@ on the retrieved context.
 - Top relevant context retrieval
 - Ollama-powered response generation
 - Retrieval similarity scores
-- Responsive premium product interface
+- Responsive product interface
 - Desktop and mobile layouts
 
 ## Architecture
